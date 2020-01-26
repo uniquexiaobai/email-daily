@@ -1,0 +1,9 @@
+{
+	"version": 2,
+	"name": "email-daily",
+	"env": {
+		"MAIL_KEY": "@mail-key",
+		"MAIL_SECRET": "@mail-secret"
+	},
+	"builds": [{ "src": "*.js", "use": "@now/node" }]
+}
