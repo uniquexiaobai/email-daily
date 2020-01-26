@@ -5,8 +5,8 @@ const nodeMailjet = require('node-mailjet');
 const app = express();
 
 const mailjet = nodeMailjet.connect(
-	process.env.MAIL_SECRET,
-	process.env.MAIL_KEY
+	process.env.MAIL_KEY,
+	process.env.MAIL_SECRET
 );
 
 const getHtml = list => {
